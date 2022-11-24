@@ -1,0 +1,58 @@
+.container {
+    background-color: transparent;
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:700px;
+}
+
+.left {
+    float: left;
+    background-color: #523592;
+    border:100px solid #523592;
+}
+
+.right{
+    float: right;
+    background-color: white;
+    border:22px solid white;
+}
+
+.container input[type=text] {
+    width: 539px;
+    border-radius: 50px;
+    height: 45px;
+}
+
+.container input[type=FName] {
+    width: 252px;
+    border-radius: 50px;
+    height: 45px;
+    margin-right: 35px;
+}
+
+.container input[type=LName] {
+    width: 252px;
+    border-radius: 50px;
+    height: 45px;
+}
+
+.container input[type=Date] {
+    width: 334px;
+    border-radius: 50px;
+    height: 45px;
+}
+
+.container input {
+    background-color: #523592;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.container ul {
+    display:flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 0px;
+}
